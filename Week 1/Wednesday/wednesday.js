@@ -96,7 +96,7 @@ const table = function(){
 }
 table();
 
-/*Check the results of assignGrade function from the conditionals exercise for every value from 60 to 100 - so your log should show "For 89, you got a B. For 90, you got an A.", etc*/
+/* Check the results of assignGrade function from the conditionals exercise for every value from 60 to 100 - so your log should show "For 89, you got a B. For 90, you got an A.", etc */
 
 const gradeAssign =  function(){
    for(let i=60;i<=100;i++){
@@ -108,3 +108,19 @@ const gradeAssign =  function(){
    
 }
 gradeAssign();
+
+
+/*reate an array to hold your top five choices of something (dogs, books, presidents, whatever). If you choose movies, the right top choice is "Satantango".
+
+For each choice, log to the screen a string like: "My #1 choice is blue."
+Bonus: Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is. */
+
+const movies = function(){
+
+    let books = ['Superman','Lakhshya','Bahubali','Iron Man'];
+
+    for(let i=0;i<books.length;i++){
+        console.log(`My ${i+1} Choice is = ${books[i]}`);
+    }
+}
+movies();
